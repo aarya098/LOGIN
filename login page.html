@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #e2dcdc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #logo {
+            margin-bottom: 20px;
+            width: 150px;
+        }
+
+        #login-form {
+            background-color: #ded4d4;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        .form-group input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .form-group input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        #footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo"><a href="">*AARYA*</a> </div>
+        <div class="hamburger" id="toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar" id="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="#product">TRANSACTION</a>
+                </li>
+                <li>
+                    <a href="#about">CRYPTOCOIN</a>
+                </li>
+                <li>
+                    <a href="#contact">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#help">HELP</a>
+                </li>
+                <div class="login" id="LOGIN">
+                    <li>
+                        <a href="" class="navlogin">Login</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="container" id="home">
+        <div class="login-left">
+            <div class="login-header">
+                <h1>Welome</h1>
+                <p>Please login </p>
+            </div>
+            <form action="" class="login-form" autocomplete="off">
+                <div class="login-content">
+                    <div class="form-item">
+                        <label for="email">WALLET ADDRESS</label>
+                        <input type="email" name="" id="" placeholder="">
+                    </div>
+                    <div class="form-item">
+                        <label for="password">ENTER PASSWORD</span></label>
+                        <label for="text"></label>
+                        <input type="password" name="" id="" placeholder="" required class="pass-key">
+                        <!-- <span class="show">Show</span> -->
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <input type="checkbox" name="" id="rememberMeCheckbox" checked>
+                            <label for="rememberMeCheckbox" class="checkboxlabel">Remember me</label>
+                        </div>
+                    </div>
+                    <button type="submit">LOGIN</button>
+                </div>
+                <div class="login-footer">
+                    <a href="">
+                        <img width="50" src="https://img.icons8.com/color/512/facebook-new.png" alt="facebook">Facebook
+                    </a>
+                    <a href="">
+                        <img width="50" src="https://img.icons8.com/fluency/512/google-logo.png" alt="google">Google
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="login-right">
+            <img src="images/Data Arranging_Two Color.svg" alt="">
+        </div>
+    </div>
+    <script src="javascript/index.js"></script>
+
+    <div id="container">
+        <img src="https://th.bing.com/th/id/OIP.GxL9VDyE9LYjLCNg0O-KHgHaHa?pid=ImgDet&rs=1" alt="Welcome Image" id="logo">
+        <div id="login-form">
+           
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
